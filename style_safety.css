@@ -60,6 +60,25 @@ h6{
 	grid-area: b;
 }
 
+.gridB{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-areas: 
+	'a b'
+}
+
+.grid3{
+	grid-area: a;
+}
+
+.grid4{
+	grid-area: b;
+}
+
+.grid5{
+	grid-area: c;
+}
+
 #header {
 	background-color: #22a6b3;
 	color: white;
