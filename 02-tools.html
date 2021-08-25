@@ -2,55 +2,55 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=">
-    <title>DFAB Tools</title>
-    <link rel="stylesheet" type="text/css" href="style_safety.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFAB Home</title>
+    <link rel="stylesheet" type="text/css" href="style_index.css" />
     <style>
+        * {box-sizing: border-box} /*fit the number of nav tabs*/
         body {
             background-image: url(pattern.jpg);
         }
 
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
+        #navbar {
+            position: relative;
+            overflow: auto;
             background-color: #22a6b3;
+        }
+
+        #navbar a {
+            float: left;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            width: 12.5%; /* eight links of equal widths */
+            text-align: center;
         }
 
         li {
             float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 8px 46.24px;
-            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
 
-    <div id="container" width="800">
+    <div id="container">
         <div id="header">
-            <h1>Digital Fabrication & Prototyping Fundamentals</h1>
+            <h1>
+                Digital Fabrication & Prototyping Fundamentals</h1>
         </div>
 
         <div id="content">
-            <div id="nav">
-                <ul>
-                    <li><a class="selected" href="index.html">Home</a></li>
-                    <li><a href="01-safety.html">FabLab Safety</a></li>
-                    <li><a href="02-tools.html">Tools</a></li>
-                    <li><a href="03-web.html">Web Development</a></li>
-                    <li><a href="04-cad.html">CAD</a></li>
-                    <li><a href="05-3dprint.html">3D Printing</a></li>
-                    <li><a href="06-laser.html">Laser Cutting</a></li>
-                    <li><a href="09-project.html">Final Project</a></li>
-                </ul>
+
+            <div id="navbar">
+                <a href="index.html">Home</a>
+                <a href="01-safety.html">FabLab Safety</a>
+                <a href="02-tools.html">Tools</a>
+                <a href="03-web.html">Web Development</a>
+                <a href="04-cad.html">CAD</a></li>
+                <a href="05-3dprint.html">3D Printing</a>
+                <a href="06-laser.html">Laser Cutting</a>
+                <a href="09-project.html">Final Project</a>
             </div>
 
             <div id="main1">
