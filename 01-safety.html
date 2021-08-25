@@ -2,56 +2,60 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=">
-    <title>DFAB Safety</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFAB Home</title>
     <link rel="stylesheet" type="text/css" href="style_safety.css" />
     <style>
+        * {
+            box-sizing: border-box
+        }
+
+        /*fit the number of nav tabs*/
         body {
             background-image: url(pattern.jpg);
         }
 
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
+        #navbar {
+            position: relative;
+            overflow: auto;
             background-color: #22a6b3;
+        }
+
+        #navbar a {
+            float: left;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            width: 12.5%;
+            /* eight links of equal widths */
+            text-align: center;
         }
 
         li {
             float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 8px 46.24px;
-            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
 
-    <div id="container" width="800">
+    <div id="container">
         <div id="header">
-            <h1>Digital Fabrication & Prototyping Fundamentals</h1>
+            <h1>
+                Digital Fabrication & Prototyping Fundamentals</h1>
         </div>
 
         <div id="content">
-            <div id="nav">
-                <ul>
-                    <li><a class="selected" href="index.html">Home</a></li>
-                    <li><a href="01-safety.html">FabLab Safety</a></li>
-                    <li><a href="02-tools.html">Tools</a></li>
-                    <li><a href="03-web.html">Web Development</a></li>
-                    <li><a href="04-cad.html">CAD</a></li>
-                    <li><a href="05-3dprint.html">3D Printing</a></li>
-                    <li><a href="06-laser.html">Laser Cutting</a></li>
-                    <li><a href="09-project.html">Final Project</a></li>
-                </ul>
 
+            <div id="navbar">
+                <a href="index.html">Home</a>
+                <a href="01-safety.html">FabLab Safety</a>
+                <a href="02-tools.html">Tools</a>
+                <a href="03-web.html">Web Development</a>
+                <a href="04-cad.html">CAD</a></li>
+                <a href="05-3dprint.html">3D Printing</a>
+                <a href="06-laser.html">Laser Cutting</a>
+                <a href="09-project.html">Final Project</a>
             </div>
 
             <div id="main1">
@@ -72,7 +76,7 @@
             </div>
 
             <div id="main2">
-                <h3>Emergerncy Procedure</h3>
+                <h3><u>Emergerncy Procedure</u></h3>
                 <p>
                     In the event of emergency, assistance may be summoned:
                 <ol>
@@ -109,6 +113,7 @@
                     </li>
                     <br>
                     <li>Do not leave injury unattended or without treatment.</li>
+                    <br>
                 </ol>
 
                 </p>
@@ -116,9 +121,8 @@
             </div>
 
             <div id="main3">
-                <h3>Attire</h3>
+                <h4><u>Attire</u></h4>
                 <p>
-
                 <div class="gridA">
                     <div class="grid1">
                         <img src="Male Attire.jpg" width="520" />
@@ -129,16 +133,13 @@
                         <img src="Female Attire.jpg" width="486" />
                         <b>Female Attire</b>
                     </div>
-
                 </div>
                 </p>
-
             </div>
 
             <div id="main4">
-                <h3>Safety Information</h3>
+                <h5><u>Safety Information</u></h5>
                 <p>
-
                 <div class="gridB">
                     <div class="grid3">
                         <img src="Cards.jpg" width="520" />
@@ -149,20 +150,17 @@
                         <img src="Warning.jpg" width="484" />
                         <b>Warning Hazards</b>
                     </div>
-
-                    <div class="grid5">
-                        <br>
-                        <img src="PPE.jpg" width="484" />
-                        <b>Personal Protection Equipments (PPE)</b>
-                    </div>
-
                 </div>
-                </p>
 
+                <br>
+                <img src="PPE.jpg" width="484" />
+                <br>
+                <b>Personal Protection Equipments (PPE)</b>
+                </p>
             </div>
 
             <div id="main5">
-                <h3>Mechanical & Non-Mechanical Hazards</h3>
+                <h6><u>Mechanical & Non-Mechanical Hazards</u></h6>
                 <p>
                     Mechanical Hazards
                 <ol>
